@@ -1,0 +1,298 @@
+<USER_REQUEST>
+ADD NEW CALCULATOR CATEGORY EXPANSION TO EXISTING ENGINEWHEELS WEBSITE
+
+I want you to expand the existing "Calculators" category on the Enginewheels website by adding the following new calculator tools. Every calculator must be fully functional, mobile-friendly, SEO optimized, and have its own dedicated tool page.
+
+====================================================
+
+CALCULATOR CATEGORY EXPANSION
+
+Create a dedicated tool page for each calculator below:
+
+FINANCE CALCULATORS
+
+- SIP Calculator
+- Mutual Fund Returns Calculator
+- Stock Profit Calculator
+- Retirement Calculator
+- Mortgage Calculator
+- Credit Card EMI Calculator
+- Debt Payoff Calculator
+- GST Calculator
+- Sales Tax Calculator
+- Income Tax Calculator
+- Profit Margin Calculator
+- Break-even Calculator
+- ROI Calculator
+- Discount Calculator
+- Salary Calculator
+- Hourly Wage Calculator
+- Freelance Rate Calculator
+- Net Worth Calculator
+- Inflation Calculator
+- Future Value Calculator
+
+HEALTH & FITNESS CALCULATORS
+
+- Calorie Calculator
+- BMR Calculator
+- Body Fat Calculator
+- Ideal Weight Calculator
+- Water Intake Calculator
+- Pregnancy Due Date Calculator
+- Ovulation Calculator
+- Heart Rate Calculator
+- Macro Calculator
+- Protein Intake Calculator
+- Workout Calories Burned Calculator
+- Running Pace Calculator
+- Cycling Calories Calculator
+- Sleep Calculator
+- Waist-to-Hip Ratio Calculator
+
+EDUCATION CALCULATORS
+
+- GPA Calculator
+- CGPA Calculator
+- Percentage to GPA Converter
+- Marks Percentage Calculator
+- Attendance Calculator
+- Study Time Calculator
+- Exam Score Calculator
+- Grade Calculator
+- Average Marks Calculator
+- Weighted Average Calculator
+
+BUSINESS CALCULATORS
+
+- Invoice Calculator
+- VAT Calculator
+- Commission Calculator
+- Markup Calculator
+- Inventory Turnover Calculator
+- Cash Flow Calculator
+- Payback Period Calculator
+- Depreciation Calculator
+- Business Loan Calculator
+- Revenue Growth Calculator
+
+CONSTRUCTION CALCULATORS
+
+- Concrete Calculator
+- Paint Calculator
+- Tile Calculator
+- Brick Calculator
+- Flooring Calculator
+- Roofing Calculator
+- Asphalt Calculator
+- Sand Calculator
+- Cement Calculator
+- Land Area Calculator
+
+TRAVEL CALCULATORS
+
+- Fuel Cost Calculator
+- Mileage Calculator
+- Trip Cost Calculator
+- Flight Time Calculator
+- Travel Budget Calculator
+- Currency Exchange Calculator
+- Hotel Cost Calculator
+- Road Trip Planner Calculator
+- Taxi Fare Calculator
+- Speed Calculator
+
+MATH & ENGINEERING CALCULATORS
+
+- Area Calculator
+- Volume Calculator
+- Surface Area Calculator
+- Triangle Calculator
+- Circle Calculator
+- Pythagorean Theorem Calculator
+- Quadratic Equation Calculator
+- Matrix Calculator
+- Determinant Calculator
+- Log Calculator
+- Percentage Increase Calculator
+- Percentage Decrease Calculator
+- Average Calculator
+- Median Calculator
+- Mode Calculator
+- Standard Deviation Calculator
+- Probability Calculator
+- Permutation Calculator
+- Combination Calculator
+- Factorial Calculator
+- Scientific Notation Calculator
+
+DATE & TIME CALCULATORS
+
+- Age In Days Calculator
+- Days Between Dates Calculator
+- Business Days Calculator
+- Hours Between Times Calculator
+- Time Duration Calculator
+- Countdown Calculator
+- Leap Year Calculator
+- Week Number Calculator
+- Unix Timestamp Calculator
+
+SEO & MARKETING CALCULATORS
+
+- Advertising ROI Calculator
+- CPC Calculator
+- CPM Calculator
+- CTR Calculator
+- Conversion Rate Calculator
+- Email Open Rate Calculator
+- Social Media Engagement Calculator
+- Affiliate Earnings Calculator
+- Influencer Rate Calculator
+- Keyword Density Calculator
+
+LIFESTYLE CALCULATORS
+
+- Love Calculator
+- Compatibility Calculator
+- Birthday Calculator
+- Pet Age Calculator
+- Zodiac Calculator
+- Life Path Number Calculator
+- Daily Water Calculator
+- Screen Time Calculator
+- Carbon Footprint Calculator
+
+====================================================
+
+FUNCTIONALITY REQUIREMENTS
+
+Each calculator must:
+
+- Perform real calculations
+- Validate user input
+- Display instant results
+- Include formula explanation
+- Include calculation breakdown
+- Include copy result button
+- Include reset button
+- Support mobile devices
+- Support dark/light mode
+- Be fast and responsive
+
+====================================================
+
+SEO REQUIREMENTS FOR EVERY CALCULATOR PAGE
+
+Create unique SEO content for every calculator.
+
+Example:
+
+Tool Name: SIP Calculator
+
+Meta Title:
+SIP Calculator Online Free | Calculate Mutual Fund Returns - Enginewheels
+
+Meta Description:
+Use the free SIP Calculator to estimate your mutual fund investment returns, maturity amount, and wealth growth instantly.
+
+URL Structure:
+/calculators/sip-calculator
+
+H1:
+SIP Calculator
+
+Content Sections:
+
+1. Introduction (300+ words)
+2. How SIP Calculator Works (300+ words)
+3. Formula Explanation
+4. Benefits
+5. FAQs (Minimum 5)
+6. Related Calculators
+7. Internal Links
+
+====================================================
+
+CATEGORY PAGE OPTIMIZATION
+
+Update the Calculators category page.
+
+Add:
+
+- 2000+ words of SEO content
+- Calculator categories overview
+- Internal linking to all calculators
+- Featured calculators section
+- FAQ section
+- Schema markup
+- Breadcrumb navigation
+
+Target Keyword:
+
+"Online Calculators"
+
+Secondary Keywords:
+
+- Free Calculators
+- Financial Calculators
+- Health Calculators
+- Math Calculators
+- Business Calculators
+- Engineering Calculators
+
+====================================================
+
+UI/UX REQUIREMENTS
+
+Maintain Enginewheels branding.
+
+Colors:
+- Violet (#7C3AED)
+- Red (#EF4444)
+
+Add:
+
+- Glassmorphism cards
+- Hover effects
+- Smooth animations
+- Result cards
+- Animated counters
+- Scroll animations
+- Gradient buttons
+- Floating background particles
+
+====================================================
+
+INTERNAL LINKING
+
+Every calculator page should show:
+
+Related Calculators
+
+Popular Calculators
+
+Recently Used Calculators
+
+Top Finance Calculators
+
+Top Health Calculators
+
+====================================================
+
+MOST IMPORTANT REQUIREMENTS
+
+1. Every calculator must work correctly.
+2. Generate actual formulas and calculations.
+3. Create dedicated SEO pages for every calculator.
+4. Add structured data schema.
+5. Ensure mobile responsiveness.
+6. Optimize for Google rankings.
+7. Follow Core Web Vitals best practices.
+8. Integrate seamlessly into the existing Enginewheels website.
+9. Use the existing header, footer, navigation, animations, and branding.
+10. Generate clean production-ready code with professional UI/UX.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-06-21T21:20:42+05:30.
+</ADDITIONAL_METADATA>

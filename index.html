@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Enginewheels - Free Online Web Tools Platform</title>
+  <meta name="title" content="Enginewheels - Free Online Web Tools Platform">
+  <meta name="description" content="Instantly access a premium ecosystem of free, fast, and privacy-oriented online tools. Count words, format JSON, generate secure passwords, and more.">
+  <meta name="keywords" content="free online tools, json formatter, password generator, word counter">
+  <meta name="author" content="Enginewheels Brand Team">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://enginewheels.com/index.html">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://enginewheels.com">
+  <meta property="og:title" content="Enginewheels - Free Online Web Tools Platform">
+  <meta property="og:description" content="Instantly access a premium ecosystem of free, fast, and privacy-oriented online tools. Count words, format JSON, generate secure passwords, and more.">
+  <meta property="og:image" content="https://enginewheels.com/assets/images/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://enginewheels.com">
+  <meta property="twitter:title" content="Enginewheels - Free Online Web Tools Platform">
+  <meta property="twitter:description" content="Instantly access a premium ecosystem of free, fast, and privacy-oriented online tools. Count words, format JSON, generate secure passwords, and more.">
+  <meta property="twitter:image" content="https://enginewheels.com/assets/images/og-image.jpg">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Structured Data - LocalBusiness & FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Enginewheels",
+    "url": "https://enginewheels.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://enginewheels.com/index.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are the tools on Enginewheels completely free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! All tools on Enginewheels are 100% free to use. There are no hidden charges, premium tiers, or features locked behind paywalls."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to create an account or register to use the tools?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No registration or account creation is required. You can use all our tools instantly without providing an email address or personal details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my data safe when using Enginewheels tools?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. All processing is executed locally in your browser using client-side JavaScript. Your text, passwords, images, and JSON are never uploaded to our servers, ensuring total privacy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are the tools on Enginewheels mobile-friendly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our website is built with a mobile-first responsive design framework, ensuring that every tool fits and functions perfectly on smartphones, tablets, and desktop computers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How fast do these tools process information?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because all operations are performed directly in your local browser, calculations and conversions happen instantly without network latency or waiting on server queues."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+        Enginewheels
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <div class="categories-nav">
+          <a href="#" class="nav-link">Categories <span style="font-size:0.7rem">▼</span></a>
+          <div class="categories-dropdown">
+            <a href="category/text-tools.html">✍ Text Tools</a>
+            <a href="category/security-tools.html">🔒 Security Tools</a>
+            <a href="category/developer-tools.html">💻 Developer Tools</a>
+            <a href="category/image-tools.html">🖼️ Image Tools</a>
+            <a href="category/generators.html">⚙️ Generators</a>
+            <a href="category/calculators.html">🧮 Calculators</a>
+            <a href="category/time-tools.html">🕒 Time Tools</a>
+            <a href="category/math-numbers.html">🔢 Math & Numbers</a>
+            <a href="category/fun-utility.html">🎯 Fun & Utility</a>
+            <a href="category/seo-web-tools.html">🌐 SEO & Web Tools</a>
+          </div>
+        </div>
+        <a href="#popular" class="nav-link">Popular Tools</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+        <a href="privacy.html" class="nav-link">Privacy Policy</a>
+      </nav>
+      
+      <div class="burger-menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <canvas class="hero-particle-canvas" id="particle-canvas"></canvas>
+    
+    <!-- Floating Icons Background -->
+    <div class="floating-icons-container">
+      <div class="floating-icon" style="top: 15%; left: 10%; font-size: 1.5rem;">✍</div>
+      <div class="floating-icon" style="top: 25%; right: 15%; font-size: 2rem;">🔒</div>
+      <div class="floating-icon" style="top: 60%; left: 8%; font-size: 2rem;">💻</div>
+      <div class="floating-icon" style="top: 75%; right: 12%; font-size: 1.8rem;">🧮</div>
+      <div class="floating-icon" style="top: 45%; left: 80%; font-size: 1.7rem;">🖼️</div>
+      <div class="floating-icon" style="top: 80%; left: 30%; font-size: 1.5rem;">🕒</div>
+    </div>
+
+    <div class="container hero-content">
+      <span class="hero-tagline">100% Free & Privacy-Focused</span>
+      <h1 class="hero-headline">100+ Free Online Tools for <span>Developers</span>, <span>Businesses</span> & <span>Creators</span></h1>
+      <p class="hero-desc">Instantly convert, calculate, format, generate, and edit code, text, files, and utilities. Fast browser-based processing, no signup required.</p>
+      
+      <!-- Search bar -->
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          <input type="text" class="search-input" placeholder="Search for tools... (e.g. Word Counter, Password Generator)">
+        </div>
+        <div class="search-results-overlay"></div>
+      </div>
+      
+      <div class="hero-actions">
+        <a href="#categories" class="btn btn-primary">Explore Categories</a>
+        <a href="#popular" class="btn btn-secondary">Popular Tools</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Categories Section -->
+  <section class="section" id="categories" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title">Browse Tools by <span>Category</span></h2>
+        <p class="section-subtitle">Discover our comprehensive collection of productivity and developer utilities.</p>
+      </div>
+      
+      <div class="category-grid">
+        <!-- Category 1 -->
+        <a href="category/text-tools.html" class="category-card">
+          <div class="category-icon">✍</div>
+          <h3 class="category-card-title">Text Tools</h3>
+          <p class="category-card-desc">Word count, case conversions, and formatting utilities.</p>
+        </a>
+        
+        <!-- Category 2 -->
+        <a href="category/security-tools.html" class="category-card">
+          <div class="category-icon">🔒</div>
+          <h3 class="category-card-title">Security Tools</h3>
+          <p class="category-card-desc">Password generation, hash calculations, and encoding.</p>
+        </a>
+        
+        <!-- Category 3 -->
+        <a href="category/developer-tools.html" class="category-card">
+          <div class="category-icon">💻</div>
+          <h3 class="category-card-title">Developer Tools</h3>
+          <p class="category-card-desc">JSON formatting, encoders, decoders, and validators.</p>
+        </a>
+        
+        <!-- Category 4 -->
+        <a href="category/image-tools.html" class="category-card">
+          <div class="category-icon">🖼️</div>
+          <h3 class="category-card-title">Image Tools</h3>
+          <p class="category-card-desc">Base64 encoders, color conversions, and color pickers.</p>
+        </a>
+        
+        <!-- Category 5 -->
+        <a href="category/generators.html" class="category-card">
+          <div class="category-icon">⚙️</div>
+          <h3 class="category-card-title">Generators</h3>
+          <p class="category-card-desc">QR codes, UUIDs, and lorem ipsum placeholders.</p>
+        </a>
+        
+        <!-- Category 6 -->
+        <a href="category/calculators.html" class="category-card">
+          <div class="category-icon">🧮</div>
+          <h3 class="category-card-title">Calculators</h3>
+          <p class="category-card-desc">Age calculations, percentages, and math functions.</p>
+        </a>
+        
+        <!-- Category 7 -->
+        <a href="category/time-tools.html" class="category-card">
+          <div class="category-icon">🕒</div>
+          <h3 class="category-card-title">Time Tools</h3>
+          <p class="category-card-desc">Epoch timestamps and human-readable time converters.</p>
+        </a>
+        
+        <!-- Category 8 -->
+        <a href="category/math-numbers.html" class="category-card">
+          <div class="category-icon">🔢</div>
+          <h3 class="category-card-title">Math & Numbers</h3>
+          <p class="category-card-desc">Binary, octal, decimal, and hexadecimal conversions.</p>
+        </a>
+        
+        <!-- Category 9 -->
+        <a href="category/fun-utility.html" class="category-card">
+          <div class="category-icon">🎯</div>
+          <h3 class="category-card-title">Fun & Utility</h3>
+          <p class="category-card-desc">Morse code translator, speech tools, and fun calculations.</p>
+        </a>
+        
+        <!-- Category 10 -->
+        <a href="category/seo-web-tools.html" class="category-card">
+          <div class="category-icon">🌐</div>
+          <h3 class="category-card-title">SEO & Web Tools</h3>
+          <p class="category-card-desc">Meta tag generators, robots.txt creators, and web parser resources.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Tools Section -->
+  <section class="section" id="popular">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title">Most <span>Popular</span> Tools</h2>
+        <p class="section-subtitle">Get started with our most frequently used free utilities.</p>
+      </div>
+      
+      <div class="tool-grid">
+        <!-- Tool 1 -->
+        <a href="tools/word-counter.html" class="tool-card">
+          <div class="tool-card-header">
+            <div class="tool-card-icon">✍</div>
+            <h3 class="tool-card-title">Word Counter</h3>
+          </div>
+          <p class="tool-card-desc">Count words, characters, sentences, paragraphs, and estimate average reading time of your text instantly.</p>
+
+          <div class="tool-card-link">Open Tool 
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+
+          </div>
+
+        </a>
+        
+        <!-- Tool 2 -->
+        <a href="tools/password-generator.html" class="tool-card">
+          <div class="tool-card-header">
+            <div class="tool-card-icon">🔒</div>
+            <h3 class="tool-card-title">Password Generator</h3>
+          </div>
+          <p class="tool-card-desc">Generate strong, random, and highly secure passwords with configurable lengths, character types, and entropy ratings.</p>
+
+          <div class="tool-card-link">Open Tool 
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+
+          </div>
+
+        </a>
+        
+        <!-- Tool 3 -->
+        <a href="tools/json-formatter.html" class="tool-card">
+          <div class="tool-card-header">
+            <div class="tool-card-icon">💻</div>
+            <h3 class="tool-card-title">JSON Formatter</h3>
+          </div>
+          <p class="tool-card-desc">Validate, format, indent, beautify, and minify your JSON data. Detect and pinpoint syntax errors on specific lines.</p>
+
+          <div class="tool-card-link">Open Tool 
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+
+          </div>
+
+        </a>
+        
+        <!-- Tool 4 -->
+        <a href="tools/qr-code-generator.html" class="tool-card">
+          <div class="tool-card-header">
+            <div class="tool-card-icon">⚙️</div>
+            <h3 class="tool-card-title">QR Code Generator</h3>
+          </div>
+          <p class="tool-card-desc">Create custom high-resolution QR codes for websites, texts, and contact details with customized colors and canvas sizes.</p>
+
+          <div class="tool-card-link">Open Tool 
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+
+          </div>
+
+        </a>
+        
+        <!-- Tool 5 -->
+        <a href="tools/age-calculator.html" class="tool-card">
+          <div class="tool-card-header">
+            <div class="tool-card-icon">🧮</div>
+            <h3 class="tool-card-title">Age Calculator</h3>
+          </div>
+          <p class="tool-card-desc">Calculate your exact age in years, months, and days down to the minute. Check next birthdays and birth details.</p>
+
+          <div class="tool-card-link">Open Tool 
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+
+          </div>
+
+        </a>
+
+        <!-- Tool 6 -->
+        <a href="tools/morse-code.html" class="tool-card">
+          <div class="tool-card-header">
+            <div class="tool-card-icon">🎯</div>
+            <h3 class="tool-card-title">Morse Code Translator</h3>
+          </div>
+          <p class="tool-card-desc">Convert standard text into Morse code signals and translate them back, featuring real audio playback using standard sound tones.</p>
+
+          <div class="tool-card-link">Open Tool 
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+
+          </div>
+
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title">Why Use <span>Enginewheels</span>?</h2>
+        <p class="section-subtitle">A simple, transparent, and private tools utility website built with user privacy and speed in mind.</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon-wrapper">🎁</div>
+          <div>
+            <h3 class="feature-title">Free Forever</h3>
+            <p class="feature-desc">All tools are fully functional and unlimited. We do not restrict access, cap usage limits, or hide features behind paid paywalls.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item">
+          <div class="feature-icon-wrapper">🔑</div>
+          <div>
+            <h3 class="feature-title">No Registration</h3>
+            <p class="feature-desc">Skip login screens and registration forms. Access any tool instantly on any browser, with no setup steps required.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item">
+          <div class="feature-icon-wrapper">⚡</div>
+          <div>
+            <h3 class="feature-title">Fast Local Processing</h3>
+            <p class="feature-desc">Operations occur client-side in your local browser environment. Calculations and transformations are instant, with zero upload lag.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item">
+          <div class="feature-icon-wrapper">🔒</div>
+          <div>
+            <h3 class="feature-title">Privacy-Friendly</h3>
+            <p class="feature-desc">Your sensitive files, text inputs, and inputs never touch our web servers. They remain stored inside your active browser session.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item">
+          <div class="feature-icon-wrapper">📱</div>
+          <div>
+            <h3 class="feature-title">Mobile Optimized</h3>
+            <p class="feature-desc">Designed using modern responsive design parameters. Use our services seamlessly on computers, laptops, iPads, or smartphones.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item">
+          <div class="feature-icon-wrapper">🛡️</div>
+          <div>
+            <h3 class="feature-title">Secure Connections</h3>
+            <p class="feature-desc">Protected by modern HTTPS security protocols, shielding your local session actions from unauthorized network intercepts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title">What Users <span>Say</span></h2>
+        <p class="section-subtitle">Read feedback from our developer, marketer, and creator communities.</p>
+      </div>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"As a frontend developer, the JSON formatter and UUID generator are pinned on my browser tab. The speed is unmatched because everything renders locally without uploading files to a server."</p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar">JS</div>
+            <div>
+              <div class="testimonial-name">Johnathan S.</div>
+              <div class="testimonial-role">Frontend Engineer</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The Morse code audio translator and QR code generator are incredibly reliable. I don't need to download third-party software anymore. The user interface feels premium, dark, and highly responsive."</p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar">AM</div>
+            <div>
+              <div class="testimonial-name">Aleksei M.</div>
+              <div class="testimonial-role">Technical Lead</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <p class="testimonial-text">"I write thousands of articles monthly, and the Word Counter tool is my go-to. It gives details on average reading times and sentence densities instantly, and I don't have to watch annoying ads."</p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar">ER</div>
+            <div>
+              <div class="testimonial-name">Emily R.</div>
+              <div class="testimonial-role">SEO Content Editor</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+        <p class="section-subtitle">Answers to common inquiries about our free tools suite.</p>
+      </div>
+      
+      <div class="faq-accordion">
+        <details class="faq-item">
+          <summary>Are the tools on Enginewheels completely free to use?</summary>
+          <div class="faq-content">
+            Yes! All tools on Enginewheels are 100% free to use. There are no hidden charges, premium tiers, or features locked behind paywalls.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Do I need to create an account or register to use the tools?</summary>
+          <div class="faq-content">
+            No registration or account creation is required. You can use all our tools instantly without providing an email address or personal details.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Is my data safe when using Enginewheels tools?</summary>
+          <div class="faq-content">
+            Absolutely. All processing is executed locally in your browser using client-side JavaScript. Your text, passwords, images, and JSON are never uploaded to our servers, ensuring total privacy.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Are the tools on Enginewheels mobile-friendly?</summary>
+          <div class="faq-content">
+            Yes, our website is built with a mobile-first responsive design framework, ensuring that every tool fits and functions perfectly on smartphones, tablets, and desktop computers.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>How fast do these tools process information?</summary>
+          <div class="faq-content">
+            Because all operations are performed directly in your local browser, calculations and conversions happen instantly without network latency or waiting on server queues.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- Col 1 -->
+      <div>
+        <a href="index.html" class="logo">
+          <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+          Enginewheels
+        </a>
+        <p class="footer-col-desc">A premium ecosystem of free, fast, and privacy-oriented online tools. Process your files, text, hashes, and configurations safely in your browser.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+          <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" aria-label="Twitter">X</a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">LN</a>
+          <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      
+      <!-- Col 2 -->
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+      </div>
+      
+      <!-- Col 3 -->
+      <div>
+        <h3 class="footer-title">Legal Links</h3>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+          <a href="terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+      
+      <!-- Col 4 -->
+      <div>
+        <h3 class="footer-title">Popular Tools</h3>
+        <div class="footer-links">
+          <a href="tools/word-counter.html">Word Counter</a>
+          <a href="tools/json-formatter.html">JSON Formatter</a>
+          <a href="tools/password-generator.html">Password Generator</a>
+          <a href="tools/qr-code-generator.html">QR Code Generator</a>
+          <a href="tools/age-calculator.html">Age Calculator</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <div class="footer-copy">&copy; <span id="footer-year"></span> Enginewheels. All rights reserved. Built with privacy.</div>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  
+  <!-- Canvas Particles Script -->
+  <script>
+    const canvas = document.getElementById('particle-canvas');
+    if (canvas) {
+      const ctx = canvas.getContext('2d');
+      let particles = [];
+      
+      const resizeCanvas = () => {
+        canvas.width = canvas.parentElement.offsetWidth;
+        canvas.height = canvas.parentElement.offsetHeight;
+      };
+      window.addEventListener('resize', resizeCanvas);
+      resizeCanvas();
+      
+      class Particle {
+        constructor() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.size = Math.random() * 2 + 1;
+          this.speedX = Math.random() * 0.4 - 0.2;
+          this.speedY = Math.random() * 0.4 - 0.2;
+          this.color = Math.random() > 0.5 ? 'rgba(124, 58, 237, 0.2)' : 'rgba(239, 68, 68, 0.15)';
+        }
+        
+        update() {
+          this.x += this.x > canvas.width || this.x < 0 ? -(this.speedX = -this.speedX) : this.speedX;
+          this.y += this.y > canvas.height || this.y < 0 ? -(this.speedY = -this.speedY) : this.speedY;
+          if (this.x > canvas.width) this.x = 0;
+          if (this.x < 0) this.x = canvas.width;
+          if (this.y > canvas.height) this.y = 0;
+          if (this.y < 0) this.y = canvas.height;
+        }
+        
+        draw() {
+          ctx.fillStyle = this.color;
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+      
+      const init = () => {
+        particles = [];
+        const count = Math.min(Math.floor(canvas.width / 15), 80);
+        for (let i = 0; i < count; i++) {
+          particles.push(new Particle());
+        }
+      };
+      
+      const animate = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+          p.update();
+          p.draw();
+        });
+        requestAnimationFrame(animate);
+      };
+      
+      init();
+      animate();
+      window.addEventListener('resize', init);
+    }
+  </script>
+</body>
+</html>
