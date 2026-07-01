@@ -6,14 +6,14 @@
   
   <!-- SEO Meta Tags -->
   <title>Word Counter Tool Online Free | Enginewheels</title>
-  <meta name="description" content="Count words, characters, sentences, paragraphs, and reading times in real-time. Safe, responsive, and secure client-side browser-based text utility.">
-  <link rel="canonical" href="https://enginewheels.com/text-tools/word-counter.html">
+  <meta name="description" content="Use the free Word Counter Tool by Enginewheels to instantly count words, characters, paragraphs, sentences, and reading time online.">
+  <link rel="canonical" href="https://enginewheels.com/tools/word-counter.html">
   
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://enginewheels.com/text-tools/word-counter.html">
+  <meta property="og:url" content="https://enginewheels.com/tools/word-counter.html">
   <meta property="og:title" content="Word Counter Tool Online Free | Enginewheels">
-  <meta property="og:description" content="Count words, characters, sentences, paragraphs, and reading times in real-time. Safe, responsive, and secure client-side browser-based text utility.">
+  <meta property="og:description" content="Use the free Word Counter Tool by Enginewheels to instantly count words, characters, paragraphs, sentences, and reading time online.">
   
   <!-- CSS Link -->
   <link rel="stylesheet" href="../assets/css/styles.css">
@@ -40,7 +40,7 @@
         "@type": "ListItem",
         "position": 3,
         "name": "Word Counter",
-        "item": "https://enginewheels.com/text-tools/word-counter.html"
+        "item": "https://enginewheels.com/tools/word-counter.html"
       }
     ]
   }
@@ -52,47 +52,47 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-  {
-    "@type": "Question",
-    "name": "Is there a character limit when using the Word Counter?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "No. All processing occurs locally in your browser using client-side JavaScript. This means you can paste large documents, essays, or logs without timing out."
-    }
-  },
-  {
-    "@type": "Question",
-    "name": "Does Enginewheels save my private text inputs?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "No. All operations are processed locally in active memory. We do not upload your text to external servers, guaranteeing complete privacy."
-    }
-  },
-  {
-    "@type": "Question",
-    "name": "How do I download the formatted results?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Simply click the 'Download Output' button to download your processed text as a standard .txt file."
-    }
-  },
-  {
-    "@type": "Question",
-    "name": "Does the tool support mobile editing?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes. Our website is fully responsive, and all tools scale fluidly on touch screens, smartphones, and tablets."
-    }
-  },
-  {
-    "@type": "Question",
-    "name": "Can I copy the results of my calculations?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes, simply click the 'Copy Output' button to save a formatted summary of all inputs and outputs to your clipboard."
-    }
-  }
-]
+      {
+        "@type": "Question",
+        "name": "How does the Word Counter tool calculate reading time?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our tool estimates average reading times based on a standard adult reading speed of approximately 200 words per minute (WPM). The total word count is divided by 200 and rounded up to the nearest minute."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a character or word limit on this online tool?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. There are no character or word limits on our Word Counter. You can paste long documents, essays, or chapters, and the browser will process the calculations instantly without lagging."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the Word Counter count spaces as characters?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our dashboard displays two separate metrics: 'Characters' (which counts every single key, including spaces, tabs, and carriage returns) and 'Characters (No Spaces)' (which counts only alphanumeric characters and symbols)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use this word counter on my phone or tablet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The Enginewheels platform is built with a responsive mobile-first design. The Word Counter adapts seamlessly to touch screens and scales perfectly on all mobile devices."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my text data stored or saved on your servers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely not. All processing occurs locally on your machine using client-side JavaScript. Your text is never uploaded to our servers, ensuring your documents remain private."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -144,154 +144,149 @@
     </nav>
 
     <div class="tool-header">
-      <h1 class="tool-title-h1">Word Counter</h1>
-      <p class="tool-desc-lead">Count words, characters, sentences, paragraphs, and reading times in real-time.</p>
+      <h1 class="tool-title-h1">Word Counter Tool</h1>
+      <p class="tool-desc-lead">Instantly count words, characters, sentences, paragraphs, and estimate reading times. Secure local processing ensures your text is never uploaded.</p>
     </div>
 
     <!-- Interactive Tool Card -->
-    <div class="tool-interface-card" style="margin-bottom:40px;">
-      <div class="calculator-inputs-grid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:20px; margin-bottom:30px;">
-         
-            <div class="form-group" style="margin-bottom:20px; text-align:left; grid-column: 1 / -1;">
-              <label for="text-input" class="form-label" style="display:block; margin-bottom:8px; font-weight:500; color:#fff;">Enter or Paste your Text:</label>
-              <textarea id="text-input" class="form-control" style="width:100%; height:200px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.1); color:#fff; padding:12px; border-radius:8px; resize:vertical;" placeholder="Paste your text here to count words..."></textarea>
-            </div>
-            
+    <div class="tool-interface-card">
+      <div class="stats-dashboard">
+        <div class="stat-box">
+          <div class="stat-value" id="stat-words">0</div>
+          <div class="stat-label">Words</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-chars">0</div>
+          <div class="stat-label">Characters</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-chars-nospace">0</div>
+          <div class="stat-label font-sm">No Spaces</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-sentences">0</div>
+          <div class="stat-label">Sentences</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-paragraphs">0</div>
+          <div class="stat-label">Paragraphs</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-reading-time">0 min</div>
+          <div class="stat-label">Read Time</div>
+        </div>
       </div>
-      <div style="text-align:center; margin-bottom:30px;">
-         <button id="btn-calculate" class="btn btn-primary" style="padding:12px 30px; font-size:1rem;">Process Text</button>
+
+      <div class="form-group">
+        <label for="word-counter-input">Enter or Paste your Text below:</label>
+        <textarea id="word-counter-input" class="form-control" placeholder="Start typing or paste your content here..."></textarea>
       </div>
-      <div class="calculator-outputs-grid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:20px; margin-bottom:30px;">
-         
-            <div class="form-group" style="margin-bottom:20px; text-align:left; grid-column: 1 / -1;">
-              <label for="text-output" class="form-label" style="display:block; margin-bottom:8px; font-weight:500; color:#fff;">Word Count Statistics</label>
-              <textarea id="text-output" class="form-control" style="width:100%; height:200px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.1); color:#fff; padding:12px; border-radius:8px; resize:vertical;" readonly placeholder="Results will appear here..."></textarea>
-            </div>
-            
-      </div>
-      
-      <div id="calc-breakdown" class="calc-breakdown-box" style="display:none; background:rgba(255,255,255,0.02); padding:20px; border-radius:8px; border:1px solid rgba(255,255,255,0.05); margin-bottom:30px;">
-         <h4 style="margin-top:0; margin-bottom:12px; color:#fff; font-family:var(--font-heading);">Processing Breakdown</h4>
-         <div id="breakdown-content" style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; text-align:left;"></div>
-      </div>
-      
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; border-top:1px solid rgba(255,255,255,0.05); padding-top:20px;">
-         <button id="btn-copy-results" class="btn btn-secondary">Copy Output</button>
-         <button id="btn-download-results" class="btn btn-secondary">Download Output</button>
-         <button id="btn-clear-text" class="btn btn-secondary">Clear Text</button>
-         <button id="btn-reset" class="btn btn-secondary">Reset</button>
+
+      <div class="tool-action-bar">
+        <button id="btn-copy-text" class="btn btn-primary">Copy Text</button>
+        <button id="btn-clear-text" class="btn btn-secondary">Clear Text</button>
       </div>
     </div>
 
     <!-- SEO Content Section -->
     <article class="seo-article">
-      
-      
-      <h2>Introduction to the Word Counter</h2>
-      <p>The **Word Counter** is a state-of-the-art, free online text utility engineered to provide instant, high-precision results for your editing, formatting, and analysis requirements. Whether you are a student writing an academic essay, an editor refining a newsletter draft, or a software engineer debugging variable formats, our browser-based tool simplifies your workflow by handling basic text tools tasks in real time. Under the hood, this utility leverages optimized client-side algorithms, ensuring that every operation is parsed accurately and efficiently without any server dependencies.</p>
-      <p>Processing text manually—such as converting letters to uppercase, cleaning spaces, finding and replacing terms, or counting words—is highly tedious and prone to human errors. Our platform automates these tasks. By providing a clean interface with dedicated inputs and outputs, you can perform massive string changes in a single click. It serves as a daily helper for anyone who wants to verify content length rules or execute quick rewrites without installing heavy applications or office suites.</p>
-      <p>A core aspect of our text utilities is absolute data security. Many online platforms process your input text on backend servers, meaning your drafts, passwords, emails, or codes are sent over the internet and may be stored in database logs. The Enginewheels **Word Counter** runs entirely client-side. The processing is executed locally in your browser using JavaScript, meaning your private text never leaves your device. Once you close your active browser tab, your data is cleared from memory, giving you complete peace of mind.</p>
-      <p>Using this tool is simple and requires no registration or payment. It is optimized to load incredibly fast, meeting the highest performance standards of modern web design. The visual interface scales fluidly on mobile screens, tablets, and desktop computers, so you can execute text edits wherever you are. Use our Word Counter today to streamline your basic text tools tasks.</p>
-    
-      
-      <h2>How the Word Counter Works</h2>
-      <p>Our **Word Counter** relies on client-side JavaScript to evaluate your input text and generate processed output. First, the tool collects your text from the main input area, along with any optional settings (such as count specifications, search phrases, or choice dropdowns). Once you enter these values and click the process trigger, the client-side engine performs validation checks. These checks ensure that the inputs are not empty and fit within normal processing constraints. If any configuration is missing, the tool alerts you immediately via the toast notification system.</p>
-      <p>After validation, the core text algorithm is applied: ` Word Count = Text.split(\s+).length `. Counts the number of words by splitting the input text along any whitespace characters. The converter processes the characters, splits strings, or replaces symbols according to standard rules. The resulting output is dynamically formatted and written to the read-only output container. For instance, spacing is normalized, letter casings are swapped, or counts are tabulated for optimal readability. Trailing newlines are trimmed to present the text cleanly.</p>
-      <p>Understanding the processing steps is critical for verifying results. That is why our tool displays a detailed step-by-step breakdown below the interface. The breakdown shows exactly how the final text or counts were produced, letting you audit the rules. It acts as an educational resource, helping you understand regular expressions, character mappings, or formatting criteria.</p>
-      <p>Finally, if you want to copy the results for reports, code files, or documents, simply click the "Copy Output" button to save it directly to your clipboard. You can also click the "Download Output" button to save the result as a text file (.txt). To start a new task, click "Clear Text" to reset the text area and start fresh, or click "Reset" to return all configuration inputs to their default values.</p>
-    
-      
-      <h2>Key Features of the Word Counter</h2>
+      <h2>Introduction to the Word Counter Tool</h2>
+      <p>Whether you are a student writing an academic essay, an author drafting a book chapter, a copywriter writing Google ads, or a marketer checking character counts for a blog post, knowing your exact length metrics is essential. The **Word Counter** by Enginewheels provides an instant, comprehensive breakdown of your content, showing you words, characters (with and without spaces), sentences, paragraphs, and estimated reading times. This tool helps you refine your content to meet target specifications easily.</p>
+      <p>Many traditional word counters require uploading your text to external servers, which can expose drafts, emails, or coding configs to database logs. At Enginewheels, our Word Counter runs entirely locally in your browser. All calculations use client-side JavaScript, meaning your text never leaves your machine. This approach provides a fast, secure, and private writing environment.</p>
+
+      <h2>How To Use the Word Counter</h2>
+      <p>Using the Enginewheels Word Counter is straightforward. Follow these simple steps to analyze your text:</p>
+      <ol>
+        <li><strong>Enter Text:</strong> Type directly into the text area, or copy text from your word processor and paste it into the input box.</li>
+        <li><strong>View Real-Time Metrics:</strong> The stats dashboard will update instantly as you type, showing word, character, sentence, and paragraph counts.</li>
+        <li><strong>Check Reading Time:</strong> Review the estimated reading time to gauge how long it will take an average reader to finish your content.</li>
+        <li><strong>Copy or Clear:</strong> Use the "Copy Text" button to copy your text back to your clipboard, or click "Clear Text" to empty the text area and start fresh.</li>
+      </ol>
+      <p>These features run locally in your browser. Once you clear the input or close the tab, your data is permanently cleared from your device's memory.</p>
+
+      <h2>Key Features</h2>
       <ul>
-        <li><strong>High Precision Processing:</strong> Processes text instantly with reliable algorithms.</li>
-        <li><strong>100% Client-Side Privacy:</strong> Your data is processed entirely in the browser and never uploaded to our servers.</li>
-        <li><strong>One-Click Actions:</strong> Copy outputs to clipboard or download results as .txt files.</li>
-        <li><strong>Responsive Design:</strong> Works perfectly on smartphones, tablets, and desktop computers.</li>
-        <li><strong>Free & Instant:</strong> No registration, sign-ups, or limitations. Clear inputs with a single click.</li>
+        <li><strong>Real-Time Counts:</strong> Metrics update instantly with every keystroke, with no lags.</li>
+        <li><strong>Detailed Character Breakdown:</strong> Displays both total characters (with spaces) and characters without spaces.</li>
+        <li><strong>Paragraph & Sentence Tracking:</strong> Helps you monitor content structure and paragraph length.</li>
+        <li><strong>Estimated Reading Time:</strong> Gauges content length using an average adult reading speed of 200 WPM.</li>
+        <li><strong>100% Client-Side Privacy:</strong> Your text is never sent to our servers, keeping your documents secure.</li>
       </ul>
-    
-      
-      <h2>Benefits of Automating Text Tasks</h2>
-      <p>Manually rewriting, counting, or formatting text blocks takes significant time and leads to spelling or formatting errors. A developer converting variables, an editor formatting newsletter drafts, or an advertiser adjusting ad copy titles can save hours using our tool. The Word Counter automates these steps, ensuring consistent and professional formatting.</p>
-      <p>Our tool helps you maintain formatting consistency across multiple documents. By applying uniform rules to capitalization, spacing, and characters, it ensures that your work is professional and ready for publishing. Additionally, the responsive design allows you to perform these operations from any device, whether you are on a desktop at the office or on a mobile phone on the go.</p>
-      <p>Unlike other web utilities that subject users to heavy ads, forced registrations, or paid plans, our text tools are 100% free with no limits. This allows you to process as many files as you need, whenever you need them, without interruption.</p>
-    
-      
-      <h2>Real-World Use Cases</h2>
-      <ul>
-        <li><strong>Content Creators & Writers:</strong> Instantly check word counts and format blog drafts or social posts.</li>
-        <li><strong>Developers & Designers:</strong> Format code structures (JSON, CSV, HTML) and convert string encodings.</li>
-        <li><strong>Office Professionals:</strong> Quickly clean up emails, format reports, and remove double spacings.</li>
-      </ul>
-    
-      
-      <h2>Why Choose Enginewheels for Your Text Needs?</h2>
-      <p>When it comes to performing text manipulations, Enginewheels offers a reliable, premium, and entirely free solution. Our platform is built using modern web technologies to ensure that each tool loads instantly and runs with absolute speed. We prioritize user privacy above everything else; unlike typical online utilities that process data on remote servers, all your text is processed locally in your browser. This client-side approach ensures your sensitive input parameters and final values never traverse the network or get saved to an external database. Furthermore, our user-friendly, responsive interface is designed from the ground up for seamless usability on mobile devices, tablets, and desktop computers. Whether you need to copy mathematical results for a report or reset variables for a quick iteration, Enginewheels provides a frictionless, ad-light environment designed to optimize your productivity.</p>
-    
-      
+
+      <h2>Benefits of Using Our Word Counter</h2>
+      <p>Writing for the web requires meeting specific length constraints. For example, meta titles must remain under 60 characters, social media posts have strict character limits, and blog posts often target word counts like 1,000 or 2,000 words. Keeping track of these metrics manually is slow and prone to errors.</p>
+      <p>Using our Word Counter helps streamline your writing process. It handles character counts, word limits, and reading times automatically, allowing you to focus on writing. The clean, responsive layout works well on all screens, so you can draft or edit content on desktop monitors, tablets, or smartphones with ease.</p>
+
       <h2>Frequently Asked Questions</h2>
       <div class="faq-accordion" style="margin-top: 20px;">
-    
         <details class="faq-item">
-          <summary>Is there a character limit when using the Word Counter?</summary>
+          <summary>How does the Word Counter tool calculate reading time?</summary>
           <div class="faq-content">
-            No. All processing occurs locally in your browser using client-side JavaScript. This means you can paste large documents, essays, or logs without timing out.
+            Our tool estimates average reading times based on a standard adult reading speed of approximately 200 words per minute (WPM). The total word count is divided by 200 and rounded up to the nearest minute.
           </div>
         </details>
         
         <details class="faq-item">
-          <summary>Does Enginewheels save my private text inputs?</summary>
+          <summary>Is there a character or word limit on this online tool?</summary>
           <div class="faq-content">
-            No. All operations are processed locally in active memory. We do not upload your text to external servers, guaranteeing complete privacy.
+            No. There are no character or word limits on our Word Counter. You can paste long documents, essays, or chapters, and the browser will process the calculations instantly without lagging.
           </div>
         </details>
         
         <details class="faq-item">
-          <summary>How do I download the formatted results?</summary>
+          <summary>Does the Word Counter count spaces as characters?</summary>
           <div class="faq-content">
-            Simply click the 'Download Output' button to download your processed text as a standard .txt file.
+            Yes. Our dashboard displays two separate metrics: 'Characters' (which counts every single key, including spaces, tabs, and carriage returns) and 'Characters (No Spaces)' (which counts only alphanumeric characters and symbols).
           </div>
         </details>
         
         <details class="faq-item">
-          <summary>Does the tool support mobile editing?</summary>
+          <summary>Can I use this word counter on my phone or tablet?</summary>
           <div class="faq-content">
-            Yes. Our website is fully responsive, and all tools scale fluidly on touch screens, smartphones, and tablets.
+            Yes. The Enginewheels platform is built with a responsive mobile-first design. The Word Counter adapts seamlessly to touch screens and scales perfectly on all mobile devices.
           </div>
         </details>
         
         <details class="faq-item">
-          <summary>Can I copy the results of my calculations?</summary>
+          <summary>Is my text data stored or saved on your servers?</summary>
           <div class="faq-content">
-            Yes, simply click the 'Copy Output' button to save a formatted summary of all inputs and outputs to your clipboard.
+            Absolutely not. All processing occurs locally on your machine using client-side JavaScript. Your text is never uploaded to our servers, ensuring your documents remain private.
           </div>
         </details>
-        </div>
-    
-      
+      </div>
+
       <!-- Related Tools Section -->
       <section class="related-tools-section">
         <h3 style="margin-bottom: 24px;">Related <span>Text Tools</span></h3>
         <div class="tool-grid">
+          <a href="case-converter.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">🔤</div>
+              <h3 class="tool-card-title">Case Converter</h3>
+            </div>
+            <p class="tool-card-desc">Convert text case formats instantly to UPPERCASE, lowercase, sentence case, Title Case, or alternating capitals.</p>
+
+            <div class="tool-card-link">Open Tool &gt;
+
+            </div>
+
+          </a>
           
-          <a href="character-counter.html" class="tool-card">
+          <a href="password-generator.html" class="tool-card">
             <div class="tool-card-header">
-              <div class="tool-card-icon">🔢</div>
-              <h3 class="tool-card-title">Character Counter</h3>
+              <div class="tool-card-icon">🔒</div>
+              <h3 class="tool-card-title">Password Generator</h3>
             </div>
-            <p class="tool-card-desc">Count total characters, letters, numbers, and symbols with or without spaces.</p>
-            <div class="tool-card-link">Open Tool &gt;</div>
-          </a>
-        
-          <a href="sentence-counter.html" class="tool-card">
-            <div class="tool-card-header">
-              <div class="tool-card-icon">💬</div>
-              <h3 class="tool-card-title">Sentence Counter</h3>
+            <p class="tool-card-desc">Generate secure passwords with configurable lengths and character types.</p>
+
+          
+            <div class="tool-card-link">Open Tool &gt;
+
+          
             </div>
-            <p class="tool-card-desc">Count the total number of sentences in your writing instantly.</p>
-            <div class="tool-card-link">Open Tool &gt;</div>
+
+          
           </a>
-        
         </div>
       </section>
     </article>
@@ -341,11 +336,11 @@
       <div>
         <h3 class="footer-title">Popular Tools</h3>
         <div class="footer-links">
-          <a href="../tools/word-counter.html">Word Counter</a>
-          <a href="../tools/json-formatter.html">JSON Formatter</a>
-          <a href="../tools/password-generator.html">Password Generator</a>
-          <a href="../tools/qr-code-generator.html">QR Code Generator</a>
-          <a href="../tools/age-calculator.html">Age Calculator</a>
+          <a href="word-counter.html">Word Counter</a>
+          <a href="json-formatter.html">JSON Formatter</a>
+          <a href="password-generator.html">Password Generator</a>
+          <a href="qr-code-generator.html">QR Code Generator</a>
+          <a href="age-calculator.html">Age Calculator</a>
         </div>
       </div>
     </div>
@@ -362,93 +357,6 @@
 
   <!-- Scripts -->
   <script src="../assets/js/main.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      // Update Breakdown helper
-      function updateBreakdown(htmlContent) {
-        const breakdown = document.getElementById('calc-breakdown');
-        const content = document.getElementById('breakdown-content');
-        if (breakdown && content) {
-          content.innerHTML = htmlContent;
-          breakdown.style.display = 'block';
-        }
-      }
-
-      // Calculate Click
-      document.getElementById('btn-calculate').addEventListener('click', () => {
-        
-            const text = document.getElementById('text-input').value;
-            const words = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
-            const chars = text.length;
-            const charsNoSpace = text.replace(/\s/g, '').length;
-            const sentences = text.trim() === '' ? 0 : text.split(/[.!?]+/).filter(s => s.trim().length > 0).length;
-            const paragraphs = text.trim() === '' ? 0 : text.split(/\n+/).filter(p => p.trim().length > 0).length;
-            const readTime = Math.ceil(words / 200);
-
-            document.getElementById('text-output').value = 
-                `Words: ${words}\n` +
-                `Characters (with spaces): ${chars}\n` +
-                `Characters (no spaces): ${charsNoSpace}\n` +
-                `Sentences: ${sentences}\n` +
-                `Paragraphs: ${paragraphs}\n` +
-                `Estimated Reading Time: ${readTime} min`;
-
-            updateBreakdown(`
-                <p><strong>Total Words:</strong> ${words}</p>
-                <p><strong>Characters:</strong> ${chars} (without spaces: ${charsNoSpace})</p>
-                <p><strong>Sentence Count:</strong> ${sentences}</p>
-                <p><strong>Paragraphs:</strong> ${paragraphs}</p>
-            `);
-        
-      });
-
-      // Reset Click
-      document.getElementById('btn-reset').addEventListener('click', () => {
-        document.getElementById('text-input').value = '';
-        document.getElementById('text-output').value = '';
-        document.getElementById('calc-breakdown').style.display = 'none';
-        showToast("Inputs have been reset.");
-      });
-
-      // Clear Text Click
-      document.getElementById('btn-clear-text').addEventListener('click', () => {
-        document.getElementById('text-input').value = '';
-        document.getElementById('text-output').value = '';
-        document.getElementById('calc-breakdown').style.display = 'none';
-        showToast("Text inputs and outputs cleared.");
-      });
-
-      // Copy Results Click
-      document.getElementById('btn-copy-results').addEventListener('click', () => {
-        const outText = document.getElementById('text-output');
-        const val = outText.value || outText.textContent;
-        if (!val || val === '-') {
-          showToast("No content to copy!", "error");
-          return;
-        }
-        copyToClipboard(val, "Output copied to clipboard!");
-      });
-
-      // Download Output Click
-      document.getElementById('btn-download-results').addEventListener('click', () => {
-        const outText = document.getElementById('text-output');
-        const val = outText.value || outText.textContent;
-        if (!val || val === '-') {
-          showToast("No content to download!", "error");
-          return;
-        }
-        const blob = new Blob([val], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = "word-counter-output.txt";
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        showToast("Output downloaded successfully!");
-      });
-    });
-  </script>
+  <script src="../assets/js/tools/word-counter.js"></script>
 </body>
 </html>

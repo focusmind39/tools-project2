@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Color Picker & Converter Tool Online Free | Enginewheels</title>
+  <meta name="description" content="Use the free Color Picker & Converter Tool by Enginewheels to instantly select colors and convert between HEX, RGB, HSL, and CMYK formats online.">
+  <link rel="canonical" href="https://enginewheels.com/tools/color-picker.html">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://enginewheels.com/tools/color-picker.html">
+  <meta property="og:title" content="Color Picker & Converter Tool Online Free | Enginewheels">
+  <meta property="og:description" content="Use the free Color Picker & Converter Tool by Enginewheels to instantly select colors and convert between HEX, RGB, HSL, and CMYK formats online.">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://enginewheels.com/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Image Tools",
+        "item": "https://enginewheels.com/category/image-tools.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Color Picker",
+        "item": "https://enginewheels.com/tools/color-picker.html"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is HSL and why should I use it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HSL stands for Hue, Saturation, and Lightness. Unlike HEX or RGB, HSL is designed to be intuitive for humans, making it easy to create lighter or darker shades by adjusting the lightness percentage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does this tool support CMYK conversion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our tool calculates the subtractive CMYK percentage equivalent of your selected RGB color, which is helpful when translating digital colors for print branding."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the shade/tint palette generator work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The tool reads the HSL values of your selected color, holds the Hue and Saturation constant, and varies the Lightness value from 10% to 90% to generate swatches."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my selected color data uploaded to a server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The Color Picker & Converter operates entirely locally in your browser. All calculations run in your device's memory using client-side JavaScript."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I click the palette swatches to update the values?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Clicking any generated swatch will load that color into the main picker and update all HEX, RGB, HSL, and CMYK outputs instantly."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../index.html" class="logo">
+        <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+        Enginewheels
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="../index.html" class="nav-link">Home</a>
+        <div class="categories-nav">
+          <a href="#" class="nav-link active">Categories <span style="font-size:0.7rem">▼</span></a>
+          <div class="categories-dropdown">
+            <a href="../category/text-tools.html">✍ Text Tools</a>
+            <a href="../category/security-tools.html">🔒 Security Tools</a>
+            <a href="../category/developer-tools.html">💻 Developer Tools</a>
+            <a href="../category/image-tools.html">🖼️ Image Tools</a>
+            <a href="../category/generators.html">⚙️ Generators</a>
+            <a href="../category/calculators.html">🧮 Calculators</a>
+            <a href="../category/time-tools.html">🕒 Time Tools</a>
+            <a href="../category/math-numbers.html">🔢 Math & Numbers</a>
+            <a href="../category/fun-utility.html">🎯 Fun & Utility</a>
+            <a href="../category/seo-web-tools.html">🌐 SEO & Web Tools</a>
+          </div>
+        </div>
+        <a href="../index.html#popular" class="nav-link">Popular Tools</a>
+        <a href="../about.html" class="nav-link">About Us</a>
+        <a href="../contact.html" class="nav-link">Contact Us</a>
+        <a href="../privacy.html" class="nav-link">Privacy Policy</a>
+      </nav>
+      
+      <div class="burger-menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Page -->
+  <main class="tool-page-layout container">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="../index.html">Home</a> &gt; <a href="../category/image-tools.html">Image Tools</a> &gt; <span>Color Picker</span>
+    </nav>
+
+    <div class="tool-header">
+      <h1 class="tool-title-h1">Color Picker & Converter</h1>
+      <p class="tool-desc-lead">Select colors interactively and translate between HEX, RGB, HSL, and CMYK formats. Safe client-side math keeps your choices private.</p>
+    </div>
+
+    <!-- Interactive Tool Card -->
+    <div class="tool-interface-card" style="display:grid; grid-template-columns: 1fr 1.2fr; gap:40px;">
+      
+      <!-- Col 1: Interactive Picker & Palette -->
+      <div style="border-right:1px solid rgba(255,255,255,0.05); padding-right:40px;">
+        <h3 style="margin-bottom:16px; font-family:var(--font-heading); color:#fff;">🎨 Pick Color</h3>
+        <div class="form-group">
+          <input type="color" id="color-picker-input" class="form-control" value="#7c3aed" style="height:100px; padding:6px; cursor:pointer; background:rgba(255,255,255,0.03);">
+        </div>
+        
+        <h3 style="margin-top:30px; margin-bottom:12px; font-family:var(--font-heading); color:#fff; font-size:1.15rem;">Shade & Tint Palette:</h3>
+        <div class="color-palette-grid" id="color-palette"></div>
+      </div>
+
+      <!-- Col 2: Color Formats Output -->
+      <div>
+        <h3 style="margin-bottom:20px; font-family:var(--font-heading); color:#fff;">📊 Translation Formats</h3>
+        
+        <div class="form-group" style="position:relative;">
+          <label style="color:var(--text-dim); font-size:0.8rem;">HEX Code:</label>
+          <div class="tool-output-box" id="color-hex" style="font-family:monospace; padding-right: 80px; min-height:50px;">#7C3AED</div>
+          <button id="btn-copy-hex" class="copy-badge-btn">Copy</button>
+        </div>
+
+        <div class="form-group" style="position:relative;">
+          <label style="color:var(--text-dim); font-size:0.8rem;">RGB (Red, Green, Blue):</label>
+          <div class="tool-output-box" id="color-rgb" style="font-family:monospace; padding-right: 80px; min-height:50px;">rgb(124, 58, 237)</div>
+          <button id="btn-copy-rgb" class="copy-badge-btn">Copy</button>
+        </div>
+
+        <div class="form-group" style="position:relative;">
+          <label style="color:var(--text-dim); font-size:0.8rem;">HSL (Hue, Saturation, Lightness):</label>
+          <div class="tool-output-box" id="color-hsl" style="font-family:monospace; padding-right: 80px; min-height:50px;">hsl(263, 83%, 58%)</div>
+          <button id="btn-copy-hsl" class="copy-badge-btn">Copy</button>
+        </div>
+
+        <div class="form-group" style="position:relative;">
+          <label style="color:var(--text-dim); font-size:0.8rem;">CMYK (Cyan, Magenta, Yellow, Key):</label>
+          <div class="tool-output-box" id="color-cmyk" style="font-family:monospace; padding-right: 80px; min-height:50px;">cmyk(48%, 76%, 0%, 7%)</div>
+          <button id="btn-copy-cmyk" class="copy-badge-btn">Copy</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEO Content Section -->
+    <article class="seo-article">
+      <h2>Introduction to the Color Picker & Converter</h2>
+      <p>In web design and graphic development, color is a key element of branding and user experience. Designers use different color spaces depending on the application environment. Translating values between HEX, RGB, HSL, and CMYK formats is a common task. The free **Color Picker & Converter** by Enginewheels provides an instant solution to select and convert colors.</p>
+      <p>Many online color converters process your selections on their backend servers, which presents a privacy risk if you are working with proprietary brand codes. Our tool operates entirely client-side. The color values are processed in your browser using JavaScript, keeping your design choices private.</p>
+
+      <h2>How To Use the Color Picker & Converter</h2>
+      <p>Selecting and converting colors with our tool is quick and simple. Follow these steps to generate your color codes:</p>
+      <ol>
+        <li><strong>Select Color:</strong> Click the main color picker square to open the browser's color selector tool and choose a color.</li>
+        <li><strong>Review Conversions:</strong> Check the output fields for the corresponding HEX, RGB, HSL, and CMYK values.</li>
+        <li><strong>Explore Palette:</strong> Click any swatch in the shade/tint palette grid to load that color and update all values.</li>
+        <li><strong>Copy the Code:</strong> Click "Copy" next to the color format you need to save the value to your clipboard.</li>
+      </ol>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Interactive Color Picker:</strong> Integrates with your browser's native color picker interface.</li>
+        <li><strong>Multi-Format Translation:</strong> Converts colors between HEX, RGB, HSL, and CMYK formats.</li>
+        <li><strong>Shade & Tint Generator:</strong> Automatically generates nine matching lightness variations.</li>
+        <li><strong>100% Client-Side Privacy:</strong> All calculations run locally in your browser, keeping your data secure.</li>
+        <li><strong>Interactive Swatches:</strong> Clicking palette swatches loads the color and updates the values instantly.</li>
+      </ul>
+
+      <h2>Benefits of Using Our Color Picker</h2>
+      <p>Manually converting colors between spaces involves complex math formulas, which are slow and prone to errors. Developers setting up CSS stylesheets or designers matching digital colors for print templates can save time using our tool.</p>
+      <p>Our Color Picker & Converter automates these translations, delivering accurate results. The responsive layout scales smoothly, allowing you to convert color codes on any device.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-accordion" style="margin-top: 20px;">
+        <details class="faq-item">
+          <summary>What is HSL and why should I use it?</summary>
+          <div class="faq-content">
+            HSL stands for Hue, Saturation, and Lightness. Unlike HEX or RGB, HSL is designed to be intuitive for humans, making it easy to create lighter or darker shades by adjusting the lightness percentage.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Does this tool support CMYK conversion?</summary>
+          <div class="faq-content">
+            Yes. Our tool calculates the subtractive CMYK percentage equivalent of your selected RGB color, which is helpful when translating digital colors for print branding.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>How does the shade/tint palette generator work?</summary>
+          <div class="faq-content">
+            The tool reads the HSL values of your selected color, holds the Hue and Saturation constant, and varies the Lightness value from 10% to 90% to generate swatches.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Is my selected color data uploaded to a server?</summary>
+          <div class="faq-content">
+            No. The Color Picker & Converter operates entirely locally in your browser. All calculations run in your device's memory using client-side JavaScript.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Can I click the palette swatches to update the values?</summary>
+          <div class="faq-content">
+            Yes. Clicking any generated swatch will load that color into the main picker and update all HEX, RGB, HSL, and CMYK outputs instantly.
+          </div>
+        </details>
+      </div>
+
+      <!-- Related Tools Section -->
+      <section class="related-tools-section">
+        <h3 style="margin-bottom: 24px;">Related <span>Image Tools</span></h3>
+        <div class="tool-grid">
+          <a href="base64-image.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">🖼️</div>
+              <h3 class="tool-card-title">Base64 Image Encoder</h3>
+            </div>
+            <p class="tool-card-desc">Convert PNG, JPEG, SVG, and GIF image files to base64 text strings instantly.</p>
+
+            <div class="tool-card-link">Open Tool &gt;
+
+            </div>
+
+          </a>
+          
+          <a href="qr-code-generator.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">⚙️</div>
+              <h3 class="tool-card-title">QR Code Generator</h3>
+            </div>
+            <p class="tool-card-desc">Generate custom high-resolution QR codes from links, texts, or contact details.</p>
+
+          
+            <div class="tool-card-link">Open Tool &gt;
+
+          
+            </div>
+
+          
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- Col 1 -->
+      <div>
+        <a href="../index.html" class="logo">
+          <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+          Enginewheels
+        </a>
+        <p class="footer-col-desc">A premium ecosystem of free, fast, and privacy-oriented online tools. Process your files, text, hashes, and configurations safely in your browser.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+          <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" aria-label="Twitter">X</a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">LN</a>
+          <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      
+      <!-- Col 2 -->
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <div class="footer-links">
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About Us</a>
+          <a href="../contact.html">Contact Us</a>
+          <a href="../sitemap.html">Sitemap</a>
+        </div>
+      </div>
+      
+      <!-- Col 3 -->
+      <div>
+        <h3 class="footer-title">Legal Links</h3>
+        <div class="footer-links">
+          <a href="../privacy.html">Privacy Policy</a>
+          <a href="../disclaimer.html">Disclaimer</a>
+          <a href="../terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+      
+      <!-- Col 4 -->
+      <div>
+        <h3 class="footer-title">Popular Tools</h3>
+        <div class="footer-links">
+          <a href="word-counter.html">Word Counter</a>
+          <a href="json-formatter.html">JSON Formatter</a>
+          <a href="password-generator.html">Password Generator</a>
+          <a href="qr-code-generator.html">QR Code Generator</a>
+          <a href="age-calculator.html">Age Calculator</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <div class="footer-copy">&copy; <span id="footer-year"></span> Enginewheels. All rights reserved. Built with privacy.</div>
+      <div class="footer-bottom-links">
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+        <a href="../disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/tools/color-picker.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Morse Code Translator Tool Online Free | Enginewheels</title>
+  <meta name="description" content="Use the free Morse Code Translator Tool by Enginewheels to instantly translate text to Morse code and play signal tones online.">
+  <link rel="canonical" href="https://enginewheels.com/tools/morse-code.html">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://enginewheels.com/tools/morse-code.html">
+  <meta property="og:title" content="Morse Code Translator Tool Online Free | Enginewheels">
+  <meta property="og:description" content="Use the free Morse Code Translator Tool by Enginewheels to instantly translate text to Morse code and play signal tones online.">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://enginewheels.com/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Fun & Utility",
+        "item": "https://enginewheels.com/category/fun-utility.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Morse Code",
+        "item": "https://enginewheels.com/tools/morse-code.html"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does the Morse code audio playback work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The tool uses the browser's native Web Audio API to create a 600Hz oscillator tone. It schedules the beeps' volume to turn up and down in real-time, matching standard dot and dash timing intervals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the timing rule for dots and dashes in Morse code?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A dash is equal to three dots in length. The gap between signals within a letter is one dot, the gap between letters is three dots, and the gap between words is seven dots."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I translate Morse code back into standard text?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our translator is fully bidirectional. You can enter text to generate Morse code, or paste Morse code (using dots, dashes, spaces, and slashes '/') to decode it back to text."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my messages data secure and private?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. All processing and audio synthesis occur locally in your browser using client-side JavaScript. Your text and translations are never uploaded to our servers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the slash '/' used for in the Morse output?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Morse code text representation, a slash '/' represents a space between words, helping readers identify where one word ends and the next begins."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../index.html" class="logo">
+        <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+        Enginewheels
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="../index.html" class="nav-link">Home</a>
+        <div class="categories-nav">
+          <a href="#" class="nav-link active">Categories <span style="font-size:0.7rem">▼</span></a>
+          <div class="categories-dropdown">
+            <a href="../category/text-tools.html">✍ Text Tools</a>
+            <a href="../category/security-tools.html">🔒 Security Tools</a>
+            <a href="../category/developer-tools.html">💻 Developer Tools</a>
+            <a href="../category/image-tools.html">🖼️ Image Tools</a>
+            <a href="../category/generators.html">⚙️ Generators</a>
+            <a href="../category/calculators.html">🧮 Calculators</a>
+            <a href="../category/time-tools.html">🕒 Time Tools</a>
+            <a href="../category/math-numbers.html">🔢 Math & Numbers</a>
+            <a href="../category/fun-utility.html">🎯 Fun & Utility</a>
+            <a href="../category/seo-web-tools.html">🌐 SEO & Web Tools</a>
+          </div>
+        </div>
+        <a href="../index.html#popular" class="nav-link">Popular Tools</a>
+        <a href="../about.html" class="nav-link">About Us</a>
+        <a href="../contact.html" class="nav-link">Contact Us</a>
+        <a href="../privacy.html" class="nav-link">Privacy Policy</a>
+      </nav>
+      
+      <div class="burger-menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Page -->
+  <main class="tool-page-layout container">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="../index.html">Home</a> &gt; <a href="../category/fun-utility.html">Fun & Utility</a> &gt; <span>Morse Code Translator</span>
+    </nav>
+
+    <div class="tool-header">
+      <h1 class="tool-title-h1">Morse Code Translator</h1>
+      <p class="tool-desc-lead">Translate plain text to Morse code and decode signals back to text instantly. Listen to signal beeps locally using browser audio synthesis.</p>
+    </div>
+
+    <!-- Interactive Tool Card -->
+    <div class="tool-interface-card">
+      <div class="form-group">
+        <label for="morse-input-text">Enter Text or Morse Code:</label>
+        <textarea id="morse-input-text" class="form-control" placeholder="Type text here to encode (or dots . and dashes - to decode)..."></textarea>
+      </div>
+
+      <div class="tool-action-bar" style="margin-bottom: 30px;">
+        <button id="btn-translate-to-morse" class="btn btn-primary">Text to Morse</button>
+        <button id="btn-translate-to-text" class="btn btn-primary">Morse to Text</button>
+        <button id="btn-clear-morse" class="btn btn-secondary">Clear Inputs</button>
+      </div>
+
+      <div class="tool-output-wrapper">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+          <div class="tool-output-title" style="margin-bottom:0">Translation Output:</div>
+          
+          <div class="morse-play-indicator" style="margin-top:0">
+            <span class="morse-bar"></span>
+            <span class="morse-bar"></span>
+            <span class="morse-bar"></span>
+          </div>
+          
+          <div class="tool-action-bar" style="margin-left:auto;">
+            <button id="btn-play-morse" class="btn btn-primary" style="padding:6px 12px; font-size:0.8rem;">Play Sound</button>
+            <button id="btn-stop-morse" class="btn btn-secondary" style="padding:6px 12px; font-size:0.8rem;">Stop Sound</button>
+            <button id="btn-copy-morse" class="btn btn-secondary" style="padding:6px 12px; font-size:0.8rem">Copy Result</button>
+          </div>
+        </div>
+        <div class="tool-output-box" id="morse-output-box" style="min-height: 100px; font-size: 1.25rem; font-weight: 600; letter-spacing:0.05em; background-color:#060911; word-break: break-all;">-</div>
+      </div>
+    </div>
+
+    <!-- SEO Content Section -->
+    <article class="seo-article">
+      <h2>Introduction to the Morse Code Translator</h2>
+      <p>Morse code is one of the oldest electrical telecommunication systems in the world, developed by Samuel Morse and Alfred Vail in the 1830s. It revolutionized communication by encoding letters and numbers into sequences of short and long signals, commonly known as **dots** and **dashes**. The free **Morse Code Translator** by Enginewheels provides an instant, bidirectional tool to translate text to Morse code and decode signals back to text.</p>
+      <p>Many online translators require sending your messages to backend web servers, which presents a security risk if your inputs contain private strings or notes. Our tool operates entirely client-side. The translations are calculated and audio is synthesized using JavaScript in your browser's active memory, keeping your data private.</p>
+
+      <h2>How To Use the Morse Code Translator</h2>
+      <p>Converting messages with our tool is quick and simple. Follow these steps depending on the translation you need:</p>
+      <ul>
+        <li><strong>Translate Text to Morse:</strong> Enter plain text into the input field and click "Text to Morse" to view the dot-and-dash representation.</li>
+        <li><strong>Decode Morse to Text:</strong> Paste dots (`.`) and dashes (`-`) into the field. Use single spaces between letters and slashes (`/`) between words, then click "Morse to Text".</li>
+        <li><strong>Listen to the Code:</strong> Click "Play Sound" to listen to the audio signal. You can click "Stop Sound" at any time to halt the playback.</li>
+      </ul>
+      <p>Click "Copy Result" to save the output value to your clipboard, or click "Clear Inputs" to reset the forms.</p>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Bidirectional Translation:</strong> Instantly encodes text to Morse or decodes Morse code back to text.</li>
+        <li><strong>Audio Synthesizer:</strong> Plays tone beeps directly in your browser using the Web Audio API oscillator.</li>
+        <li><strong>Timing Standardizations:</strong> Follows standard timing protocols for signal, letter, and word gaps.</li>
+        <li><strong>100% Client-Side Privacy:</strong> All processing is done locally in your browser, keeping your messages secure.</li>
+        <li><strong>Visual Playback Bar:</strong> Displays ticking audio bars representing active tone playbacks.</li>
+      </ul>
+
+      <h2>Benefits of Using Our Morse Translator</h2>
+      <p>Translating Morse code manually requires reference charts and is slow and prone to errors. Amateur radio operators, historians, educators, or students learning communication history can save time using our tool.</p>
+      <p>Our Morse Code Translator automates these translations, delivering accurate results. The responsive layout scales smoothly, allowing you to convert and play Morse code easily on any device.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-accordion" style="margin-top: 20px;">
+        <details class="faq-item">
+          <summary>How does the Morse code audio playback work?</summary>
+          <div class="faq-content">
+            The tool uses the browser's native Web Audio API to create a 600Hz oscillator tone. It schedules the beeps' volume to turn up and down in real-time, matching standard dot and dash timing intervals.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>What is the timing rule for dots and dashes in Morse code?</summary>
+          <div class="faq-content">
+            A dash is equal to three dots in length. The gap between signals within a letter is one dot, the gap between letters is three dots, and the gap between words is seven dots.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Can I translate Morse code back into standard text?</summary>
+          <div class="faq-content">
+            Yes, our translator is fully bidirectional. You can enter text to generate Morse code, or paste Morse code (using dots, dashes, spaces, and slashes '/') to decode it back to text.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Is my messages data secure and private?</summary>
+          <div class="faq-content">
+            Absolutely. All processing and audio synthesis occur locally in your browser using client-side JavaScript. Your text and translations are never uploaded to our servers.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>What is the slash '/' used for in the Morse output?</summary>
+          <div class="faq-content">
+            In Morse code text representation, a slash '/' represents a space between words, helping readers identify where one word ends and the next begins.
+          </div>
+        </details>
+      </div>
+
+      <!-- Related Tools Section -->
+      <section class="related-tools-section">
+        <h3 style="margin-bottom: 24px;">Related <span>Fun Tools</span></h3>
+        <div class="tool-grid">
+          <a href="binary-converter.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">🔢</div>
+              <h3 class="tool-card-title">Binary Converter</h3>
+            </div>
+            <p class="tool-card-desc">Convert values bidirectionally between Binary, Decimal, Hex, and Octal formats.</p>
+
+            <div class="tool-card-link">Open Tool &gt;
+
+            </div>
+
+          </a>
+          
+          <a href="age-calculator.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">🧮</div>
+              <h3 class="tool-card-title">Age Calculator</h3>
+            </div>
+            <p class="tool-card-desc">Calculate your exact age in years, months, and days based on your birthdate.</p>
+
+          
+            <div class="tool-card-link">Open Tool &gt;
+
+          
+            </div>
+
+          
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- Col 1 -->
+      <div>
+        <a href="../index.html" class="logo">
+          <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+          Enginewheels
+        </a>
+        <p class="footer-col-desc">A premium ecosystem of free, fast, and privacy-oriented online tools. Process your files, text, hashes, and configurations safely in your browser.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+          <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" aria-label="Twitter">X</a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">LN</a>
+          <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      
+      <!-- Col 2 -->
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <div class="footer-links">
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About Us</a>
+          <a href="../contact.html">Contact Us</a>
+          <a href="../sitemap.html">Sitemap</a>
+        </div>
+      </div>
+      
+      <!-- Col 3 -->
+      <div>
+        <h3 class="footer-title">Legal Links</h3>
+        <div class="footer-links">
+          <a href="../privacy.html">Privacy Policy</a>
+          <a href="../disclaimer.html">Disclaimer</a>
+          <a href="../terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+      
+      <!-- Col 4 -->
+      <div>
+        <h3 class="footer-title">Popular Tools</h3>
+        <div class="footer-links">
+          <a href="word-counter.html">Word Counter</a>
+          <a href="json-formatter.html">JSON Formatter</a>
+          <a href="password-generator.html">Password Generator</a>
+          <a href="qr-code-generator.html">QR Code Generator</a>
+          <a href="age-calculator.html">Age Calculator</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <div class="footer-copy">&copy; <span id="footer-year"></span> Enginewheels. All rights reserved. Built with privacy.</div>
+      <div class="footer-bottom-links">
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+        <a href="../disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/tools/morse-code.js"></script>
+</body>
+</html>

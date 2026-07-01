@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>URL Encoder & Decoder Tool Online Free | Enginewheels</title>
+  <meta name="description" content="Use the free URL Encoder & Decoder Tool by Enginewheels to instantly encode or decode strings to match standard URL formats online.">
+  <link rel="canonical" href="https://enginewheels.com/tools/url-encoder-decoder.html">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://enginewheels.com/tools/url-encoder-decoder.html">
+  <meta property="og:title" content="URL Encoder & Decoder Tool Online Free | Enginewheels">
+  <meta property="og:description" content="Use the free URL Encoder & Decoder Tool by Enginewheels to instantly encode or decode strings to match standard URL formats online.">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://enginewheels.com/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Developer Tools",
+        "item": "https://enginewheels.com/category/developer-tools.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "URL Encoder Decoder",
+        "item": "https://enginewheels.com/tools/url-encoder-decoder.html"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is URL encoding?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "URL encoding, also known as percent-encoding, is a mechanism to translate special or non-ASCII characters in a URL into a standardized format. This replaces unsafe characters with a '%' followed by their two-digit hexadecimal value."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do spaces convert to %20 or + in URLs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "URLs cannot contain raw space characters. Standard percent-encoding converts spaces to '%20', while query parameters in search strings often represent spaces as '+'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if I try to decode a malformed URL string?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you input a malformed URL string (e.g., an incomplete percent-encoding sequence like '%2'), the tool will catch the error, display a 'Malformed URI' message, and prompt you to verify the string syntax."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you upload my URLs or strings to a server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. All conversions are executed locally in your browser using client-side JavaScript. Your text and processed URLs never leave your machine, ensuring complete privacy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there character limits on this tool?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The tool runs locally in your browser's memory and can process long query parameters, tracking scripts, or redirection links instantly."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../index.html" class="logo">
+        <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+        Enginewheels
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="../index.html" class="nav-link">Home</a>
+        <div class="categories-nav">
+          <a href="#" class="nav-link active">Categories <span style="font-size:0.7rem">▼</span></a>
+          <div class="categories-dropdown">
+            <a href="../category/text-tools.html">✍ Text Tools</a>
+            <a href="../category/security-tools.html">🔒 Security Tools</a>
+            <a href="../category/developer-tools.html">💻 Developer Tools</a>
+            <a href="../category/image-tools.html">🖼️ Image Tools</a>
+            <a href="../category/generators.html">⚙️ Generators</a>
+            <a href="../category/calculators.html">🧮 Calculators</a>
+            <a href="../category/time-tools.html">🕒 Time Tools</a>
+            <a href="../category/math-numbers.html">🔢 Math & Numbers</a>
+            <a href="../category/fun-utility.html">🎯 Fun & Utility</a>
+            <a href="../category/seo-web-tools.html">🌐 SEO & Web Tools</a>
+          </div>
+        </div>
+        <a href="../index.html#popular" class="nav-link">Popular Tools</a>
+        <a href="../about.html" class="nav-link">About Us</a>
+        <a href="../contact.html" class="nav-link">Contact Us</a>
+        <a href="../privacy.html" class="nav-link">Privacy Policy</a>
+      </nav>
+      
+      <div class="burger-menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Page -->
+  <main class="tool-page-layout container">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="../index.html">Home</a> &gt; <a href="../category/developer-tools.html">Developer Tools</a> &gt; <span>URL Encoder/Decoder</span>
+    </nav>
+
+    <div class="tool-header">
+      <h1 class="tool-title-h1">URL Encoder & Decoder</h1>
+      <p class="tool-desc-lead">Instantly encode or decode strings to match standard URL format specifications. Secure client-side processing keeps your inputs private.</p>
+    </div>
+
+    <!-- Interactive Tool Card -->
+    <div class="tool-interface-card">
+      <div class="form-group">
+        <label for="url-input-text">Enter string to convert below:</label>
+        <textarea id="url-input-text" class="form-control" placeholder="https://example.com/search?q=online tools"></textarea>
+      </div>
+
+      <div class="tool-action-bar" style="margin-bottom: 30px;">
+        <button id="btn-encode-url" class="btn btn-primary">URL Encode</button>
+        <button id="btn-decode-url" class="btn btn-secondary">URL Decode</button>
+        <button id="btn-clear-url" class="btn btn-secondary">Clear Inputs</button>
+      </div>
+
+      <div class="tool-output-wrapper">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+          <div class="tool-output-title" style="margin-bottom:0">Conversion Result:</div>
+          <button id="btn-copy-url" class="btn btn-secondary" style="padding:6px 12px; font-size:0.8rem">Copy Result</button>
+        </div>
+        <div class="tool-output-box" id="url-output-box" style="min-height: 100px; background-color:#060911;"></div>
+      </div>
+    </div>
+
+    <!-- SEO Content Section -->
+    <article class="seo-article">
+      <h2>Introduction to the URL Encoder & Decoder</h2>
+      <p>In web development, transmitting data securely via URL parameters is a daily task. URLs can only contain a limited set of ASCII characters. Special characters like spaces, symbols, or non-English characters can cause parsing errors on web servers. The free **URL Encoder & Decoder** by Enginewheels translates these strings into standard formats to prevent errors.</p>
+      <p>Many online tools upload your strings to their backend servers for conversion, presenting a security risk if your URLs contain API tokens, private emails, or session details. At Enginewheels, our URL Encoder & Decoder operates entirely client-side. Your inputs are processed using JavaScript in your browser's active memory, keeping your data private.</p>
+
+      <h2>How To Use the URL Encoder & Decoder</h2>
+      <p>Converting your strings is quick and simple. Follow these steps to process your URLs:</p>
+      <ol>
+        <li><strong>Paste Input:</strong> Paste your raw string, URL parameters, or encoded redirect links into the input textarea.</li>
+        <li><strong>Choose Operation:</strong> Click "URL Encode" to convert special characters into percent-encoded values, or "URL Decode" to convert them back to readable text.</li>
+        <li><strong>Review Output:</strong> Check the conversion results in the output display block. If a string is malformed, the tool will display an error message.</li>
+        <li><strong>Copy the Result:</strong> Click "Copy Result" to save the converted string to your clipboard.</li>
+      </ol>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Bidirectional Conversion:</strong> Instantly encodes raw strings or decodes percent-encoded URLs.</li>
+        <li><strong>Exception Handling:</strong> Catches and displays detailed error messages for invalid or malformed URI structures.</li>
+        <li><strong>Real-Time Processing:</strong> Converts strings instantly in your browser window, with no network lags.</li>
+        <li><strong>100% Client-Side Privacy:</strong> Your text is never sent to our servers, keeping your data secure.</li>
+        <li><strong>Clean Interface:</strong> Simple buttons and clear outputs help streamline your workflow.</li>
+      </ul>
+
+      <h2>Benefits of URL Encoding</h2>
+      <p>URL encoding ensures that web browsers and servers interpret URL parameters correctly. Unencoded spaces or ampersands can break query parameters, causing web server errors or script failures. Automating this encoding is essential for debugging API endpoints, setting up marketing redirect links, and formatting web requests.</p>
+      <p>Our URL Encoder & Decoder simplifies these tasks, providing a fast and secure way to format strings. The responsive layout scales smoothly, allowing you to encode and decode URLs on any device.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-accordion" style="margin-top: 20px;">
+        <details class="faq-item">
+          <summary>What is URL encoding?</summary>
+          <div class="faq-content">
+            URL encoding, also known as percent-encoding, is a mechanism to translate special or non-ASCII characters in a URL into a standardized format. This replaces unsafe characters with a '%' followed by their two-digit hexadecimal value.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Why do spaces convert to %20 or + in URLs?</summary>
+          <div class="faq-content">
+            URLs cannot contain raw space characters. Standard percent-encoding converts spaces to '%20', while query parameters in search strings often represent spaces as '+'.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>What happens if I try to decode a malformed URL string?</summary>
+          <div class="faq-content">
+            If you input a malformed URL string (e.g., an incomplete percent-encoding sequence like '%2'), the tool will catch the error, display a 'Malformed URI' message, and prompt you to verify the string syntax.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Do you upload my URLs or strings to a server?</summary>
+          <div class="faq-content">
+            No. All conversions are executed locally in your browser using client-side JavaScript. Your text and processed URLs never leave your machine, ensuring complete privacy.
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Are there character limits on this tool?</summary>
+          <div class="faq-content">
+            No. The tool runs locally in your browser's memory and can process long query parameters, tracking scripts, or redirection links instantly.
+          </div>
+        </details>
+      </div>
+
+      <!-- Related Tools Section -->
+      <section class="related-tools-section">
+        <h3 style="margin-bottom: 24px;">Related <span>Developer Tools</span></h3>
+        <div class="tool-grid">
+          <a href="json-formatter.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">💻</div>
+              <h3 class="tool-card-title">JSON Formatter</h3>
+            </div>
+            <p class="tool-card-desc">Format, validate, and minify your JSON data payloads instantly.</p>
+
+            <div class="tool-card-link">Open Tool &gt;
+
+            </div>
+
+          </a>
+          
+          <a href="hash-generator.html" class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">#️⃣</div>
+              <h3 class="tool-card-title">Hash Generator</h3>
+            </div>
+            <p class="tool-card-desc">Generate secure cryptographic MD5, SHA-1, SHA-256, and SHA-512 hashes from input strings.</p>
+
+          
+            <div class="tool-card-link">Open Tool &gt;
+
+          
+            </div>
+
+          
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- Col 1 -->
+      <div>
+        <a href="../index.html" class="logo">
+          <span class="logo-icon"><span class="logo-icon-inner"></span></span>
+          Enginewheels
+        </a>
+        <p class="footer-col-desc">A premium ecosystem of free, fast, and privacy-oriented online tools. Process your files, text, hashes, and configurations safely in your browser.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+          <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" aria-label="Twitter">X</a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">LN</a>
+          <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      
+      <!-- Col 2 -->
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <div class="footer-links">
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About Us</a>
+          <a href="../contact.html">Contact Us</a>
+          <a href="../sitemap.html">Sitemap</a>
+        </div>
+      </div>
+      
+      <!-- Col 3 -->
+      <div>
+        <h3 class="footer-title">Legal Links</h3>
+        <div class="footer-links">
+          <a href="../privacy.html">Privacy Policy</a>
+          <a href="../disclaimer.html">Disclaimer</a>
+          <a href="../terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+      
+      <!-- Col 4 -->
+      <div>
+        <h3 class="footer-title">Popular Tools</h3>
+        <div class="footer-links">
+          <a href="word-counter.html">Word Counter</a>
+          <a href="json-formatter.html">JSON Formatter</a>
+          <a href="password-generator.html">Password Generator</a>
+          <a href="qr-code-generator.html">QR Code Generator</a>
+          <a href="age-calculator.html">Age Calculator</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <div class="footer-copy">&copy; <span id="footer-year"></span> Enginewheels. All rights reserved. Built with privacy.</div>
+      <div class="footer-bottom-links">
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+        <a href="../disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/tools/url-encoder-decoder.js"></script>
+</body>
+</html>
